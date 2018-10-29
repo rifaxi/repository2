@@ -1,1 +1,15 @@
-
+h1 {
+font-size: 30px; }
+img{
+max-width: 100%;
+height:auto;
+width:auto;
+}
+@media only screen and (max-width: 1200px) {
+#prawe_menu { display: block; }
+}
+@media only screen and (max-width: 680px) {
+#prawe_menu { display: none; }
+}
+body
+ {background-color:coral;}
